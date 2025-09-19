@@ -20,21 +20,10 @@ a:hover{text-decoration:underline}
 .btn:hover{text-decoration:none;filter:brightness(.97)}
 .btn-sm{padding:.55rem .9rem;font-size:.9rem}
 .btn-primary{background:var(--brand);color:#fff;border:none}
-.btn-ghost {
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-}
-
-.btn-ghost:hover {
-  background: #0ea5a1; /* brand teal accent */
-  color: #fff;
-  border-color: #0ea5a1;
-}
-
+.btn-ghost {background: rgba(255, 255, 255, 0.1);color: #fff;border: 1px solid rgba(255, 255, 255, 0.4);}
+.btn-ghost:hover {background: #0ea5a1; /* brand teal accent */color: #fff;border-color: #0ea5a1;}
 .btn-block{width:100%}
 .tiny{font-size:.9rem;color:var(--ink-3)}
-
 .site-header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--ring);z-index:30}
 .nav{display:flex;align-items:center;justify-content:space-between;padding:.8rem 0}
 .menu{display:flex;gap:1rem;align-items:center}
