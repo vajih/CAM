@@ -20,7 +20,18 @@ a:hover{text-decoration:underline}
 .btn:hover{text-decoration:none;filter:brightness(.97)}
 .btn-sm{padding:.55rem .9rem;font-size:.9rem}
 .btn-primary{background:var(--brand);color:#fff;border:none}
-.btn-ghost{background:transparent;color:var(--ink);border:1px solid var(--ring)}
+.btn-ghost {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.btn-ghost:hover {
+  background: #0ea5a1; /* brand teal accent */
+  color: #fff;
+  border-color: #0ea5a1;
+}
+
 .btn-block{width:100%}
 .tiny{font-size:.9rem;color:var(--ink-3)}
 
