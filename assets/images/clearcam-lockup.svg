@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="50" viewBox="0 0 300 50" fill="none">
+  <style>
+    .word{font: 700 26px 'Inter', sans-serif}
+  </style>
+  <g transform="translate(0,5)">
+    <g transform="translate(0,0)">
+      <rect x="0" y="0" width="40" height="40" rx="10" fill="#0b2540"/>
+      <path d="M10 22l6 6L30 12" stroke="#0ea5a1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text class="word" x="56" y="29" fill="#0b2540">Clear</text>
+    <text class="word" x="120" y="29" fill="#0ea5a1">CAM</text>
+  </g>
+</svg>
